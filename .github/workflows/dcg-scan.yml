@@ -1,11 +1,7 @@
 name: dcg-scan
 
 on:
-  push:
-    branches: [main]
-  pull_request:
-    branches: [main]
-
+  workflow_dispatch:
 jobs:
   dcg-scan:
     runs-on: ubuntu-latest
